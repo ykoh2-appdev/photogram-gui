@@ -48,3 +48,5 @@ package-lock.json
 core.chrome*
 !vendor/
 .theia/.ltici_apitoken.yml
+vendor/bundle/*
+!vendor/bundle/.keep
