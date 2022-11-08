@@ -234,7 +234,7 @@ describe "/users/[USERNAME]" do
     user.username = "jeff_b_is_evil"
     user.save
 
-    test_username = "new_user"
+    test_username = "new_user#{rand(15)}"
 
     visit "/users/#{user.username}"
     fill_in "Username", with: test_username
